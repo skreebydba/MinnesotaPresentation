@@ -1,0 +1,3 @@
+--.\disableopttempdb.cmd
+--.\tempstress.cmd
+--.\optimizetempdb.cmd
