@@ -26,7 +26,7 @@ Invoke-Sqlcmd -ServerInstance $instance -Database master -InputFile .\disableopt
 
 Restart-Service -Name $service -Force;
 
-<# Execute line 31.  This will run 50 threads, each of which will create a temp table 5000 times. #>
+<# Execute line 31.  This will run 50 threads, each of which will create a temp table 5000 times. Note the elapsed time when it completes. #>
 
 .\ostress.exe -Q"exec letsgosox" -n50 -r5000 -dChicagoWhiteSox -S"localhost"; 
 
