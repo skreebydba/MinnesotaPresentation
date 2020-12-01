@@ -1,1 +1,1 @@
-ostress -Usa -PJuanS0t022 -Q"exec letsgosox" -n50 -r5000 -dChicagoWhiteSox -S"localhost,1439"
+ostress -Usa -PJuanS0t022 -Q"exec letsgosox" -n50 -r`1000 -dChicagoWhiteSox -S"localhost,1437"
